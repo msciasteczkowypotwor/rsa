@@ -34,7 +34,7 @@ namespace RSA
 		public List<int> GenerateListOfPrimesInRange(int a, int b)
 		{
 			List<int> lista = new List<int>();
-			for(int i = a; i <= b; i++)
+			for (int i = a; i <= b; i++)
 			{
 				if (IsPrime(i))
 				{
